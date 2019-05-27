@@ -1,0 +1,31 @@
+{
+  "name": "@sapper-dragon/remark",
+  "version": "0.0.3",
+  "description": "Decorate your Sapper project with Remark.",
+  "license": "MIT",
+  "author": "Robert Hall <langbert@gmail.com> (http://arxpoetica.com/)",
+  "homepage": "https://github.com/sapper-dragon/remark#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sapper-dragon/remark.git"
+  },
+  "keywords": [
+    "sapper",
+    "remark",
+    "markdown"
+  ],
+  "bugs": {
+    "url": "https://github.com/sapper-dragon/remark/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ansi-colors": "3.2.4",
+    "remark": "10.0.1",
+    "remark-html": "9.0.0",
+    "svgo": "1.2.2"
+  },
+  "devDependencies": {}
+}
