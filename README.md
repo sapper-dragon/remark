@@ -25,9 +25,9 @@ You can place a `trimmings.config.js` file in the root of your project to set co
 ```js
 export default {
 	remark: {
-		watchPath: 'src/trimmings/remark', // path to watch *.md files:
-		pathMatcher: /\.md$/, // pattern for files to watch:
-		sveltePath: 'src/routes/_markdown', // svelte output path:
+		import: 'src/trimmings/remark', // path to watch *.md files
+		filter: /\.md$/, // pattern for files to watch
+		exportSvelte: 'src/routes/_markdown', // svelte output path
 	},
 	// ... additional settings from other @sapper-dragon packages...
 }
