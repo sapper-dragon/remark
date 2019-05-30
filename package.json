@@ -1,6 +1,6 @@
 {
   "name": "@sapper-dragon/remark",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "Decorate your Sapper project with Remark.",
   "license": "MIT",
   "author": "Robert Hall <langbert@gmail.com> (http://arxpoetica.com/)",
