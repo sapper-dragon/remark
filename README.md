@@ -14,9 +14,9 @@ yarn add @sapper-dragon/remark --dev
 
 ## Usage
 
-This project requires the [@sapper-dragon/trimmings](https://github.com/sapper-dragon/trimmings) lib, so look there first for first instructions, then come back. 💫
+This project requires the [@sapper-dragon/trimmings](https://github.com/sapper-dragon/trimmings) lib, so look there first for instructions, then come back. 💫
 
-`@sapper-dragon/remark` converts files from an `remark` folder and exports them to importable `*.svelte` files.
+`@sapper-dragon/remark` converts files from an `remark` folder and outputs them to importable `*.svelte` files.
 
 ### Config
 
@@ -25,9 +25,9 @@ You can place a `trimmings.config.js` file in the root of your project to set co
 ```js
 export default {
 	remark: {
-		import: 'src/trimmings/remark', // path to watch *.md files
+		input: 'src/trimmings/remark', // path to watch *.md files
 		filter: /\.md$/, // pattern for files to watch
-		exportSvelte: 'src/routes/_markdown', // svelte output path
+		outputSvelte: 'src/routes/_markdown', // svelte output path
 	},
 	// ... additional settings from other @sapper-dragon packages...
 }
