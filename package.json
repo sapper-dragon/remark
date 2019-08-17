@@ -22,7 +22,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "ansi-colors": "3.2.4",
+    "ansi-colors": "4.1.1",
     "remark": "10.0.1",
     "remark-html": "9.0.0"
   },
